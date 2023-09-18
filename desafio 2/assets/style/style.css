@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: gray;
+}
+.encabezado {
+  background-color: black;
+  background-image: url("../img/fondo.png");
+  padding: 8%;
+  font-size: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 2em;
+  text-align: center;
+}
+h1 {
+  color: azure;
+  font-size: 30px;
+  padding: 5px;
+  width: 50%;
+  margin: 0px;
+}
+div {
+  margin: 0px;
+}
+p {
+  font-size: 20px;
+}
+.producto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prod_img {
+  width: 40%;
+  text-align: right;
+  padding: 0px;
+  margin: 5px;
+}
+.banca{
+  height: 225px;
+  width: 225px;
+}
+.prod_txt {
+  width: 40%;
+  padding: 5px;
+  text-align: justify;
+}
+.prod_desc {
+  font-size: 15px;
+}
+.pie {
+  background-color: brown;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
